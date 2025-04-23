@@ -1,0 +1,99 @@
+/* edit */
+body {
+    background-color: #141414; /* Dark background */
+    color: #ffffff; /* White text color */
+    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif; /* Modern sans-serif font */
+    margin: 0;
+    padding: 0;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+.container {
+    width: 90%;
+    max-width: 1000px;
+    background-color: #181818;
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.5);
+    display: flex;
+    flex-wrap: wrap;
+    position: relative; /* Для правильного позиционирования элементов внутри */
+}
+h1 {
+    color: #e50914; /* Netflix red */
+    font-weight: bold;
+    text-align: center;
+}
+form {
+    background-color: #181818; /* Slightly lighter background for the form */
+    padding: 20px;
+    border-radius: 8px;
+    width: 600px;
+    
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+input[type="text"],
+input[type="date"],
+input[type="file"],
+textarea {
+    width: 95%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: none;
+    border-radius: 4px;
+    background-color: #444; /* Darker input background */
+    color: #fff; /* Input text color */
+}
+.edit {
+    background-color: #e50914; /* Netflix red */
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+    width: 100%;
+    font-weight: bold;
+}
+.edit:hover {
+    background-color: #f6121d; /* Slightly lighter red on hover */
+}
+a {
+    color: #e50914; /* Netflix red */
+    text-decoration: none;
+    display: block;
+    text-align: center;
+    
+}
+
+.back-link {
+    margin-top: 30px;
+    font-size: 16px;
+    text-align: center;
+}
+.back-link a {
+    color: #e50914;
+    text-decoration: none;
+}
+.back-link a:hover {
+    text-decoration: underline;
+}
+/* Стили для кнопки закрытия */
+.close-btn {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    font-size: 30px;
+    font-weight: bold;
+    color: #e50914;
+    cursor: pointer;
+    transition: color 0.3s;
+}
+.close-btn:hover {
+    color: #f40612;
+}
